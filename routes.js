@@ -24,6 +24,8 @@ const DELETE_VIDEO = "/:id/delete";
 const GITHUB = "/auth/github";
 const GITHUB_CALLBACK = "/auth/github/callback";
 
+const BASE = `http://localhost:${process.env.PORT}/`;
+
 const routes = {
     home: HOME,
     join: JOIN,
@@ -65,7 +67,8 @@ const routes = {
     },
     gitHub: GITHUB,
     githubCallback: GITHUB_CALLBACK,
-    me: ME
+    me: ME,
+    base: BASE
 };
 
 export default routes;
