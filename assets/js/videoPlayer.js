@@ -16,6 +16,7 @@ function handlePlayClick() {
     playBtn.innerHTML = '<i class="fas fa-play"></i>';
   }
 }
+
 function handleVolumeClick() {
   if (videoPlayer.muted) {
     videoPlayer.muted = false;
