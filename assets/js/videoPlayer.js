@@ -39,7 +39,6 @@ function handleVolumeClick() {
 function exitFullScreen() {
   fullScrnBtn.innerHTML = '<i class="fas fa-expand"></i>';
   fullScrnBtn.addEventListener("click", goFullScreen);
-  document.webkitExitFullscreen();
   if (document.exitFullscreen) {
     document.exitFullscreen();
   } else if (document.mozCancelFullScreen) {
@@ -52,7 +51,6 @@ function exitFullScreen() {
 }
 
 function goFullScreen() {
-  videoContainer.webkitRequestFullscreen();
   if (videoContainer.requestFullscreen) {
     videoContainer.requestFullscreen();
   } else if (videoContainer.mozRequestFullScreen) {
