@@ -9,3 +9,17 @@
     margin-bottom: 10px;
   }
 }
+
+.search__videos {
+  .videoBlock {
+    video {
+      margin: 10px 0px;
+      max-width: 300px;
+    }
+    .videoBlock__title {
+      font-size: 18px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+  }
+}

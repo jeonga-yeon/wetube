@@ -423,6 +423,15 @@ input[type="submit"] {
   font-weight: 300;
   margin-bottom: 10px; }
 
+.search__videos .videoBlock video {
+  margin: 10px 0px;
+  max-width: 300px; }
+
+.search__videos .videoBlock .videoBlock__title {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 10px; }
+
 .videoPlayer {
   position: relative; }
   .videoPlayer:hover .videoPlayer__controls {
